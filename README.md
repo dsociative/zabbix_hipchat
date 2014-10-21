@@ -16,4 +16,4 @@ optional arguments:
 
 Example
 -------
-zabbix_hipchat FDsDs3SiZVGUpsadczcSmrpyV7gdasdR 104523 '<a href="{TRIGGER.URL}">{TRIGGER.STATUS} - {TRIGGER.NAME}</a>' --message_format html
+``zabbix_hipchat FDsDs3SiZVGUpsadczcSmrpyV7gdasdR 104523 '<a href="{TRIGGER.URL}">{TRIGGER.STATUS} - {TRIGGER.NAME}</a>' --message_format html``
