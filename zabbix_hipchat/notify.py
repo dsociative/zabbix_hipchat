@@ -17,8 +17,7 @@ parser.add_argument('--host', dest='host', default='api.hipchat.com')
 parser.add_argument('--message_format', dest='message_format', default='text')
 
 
-def send(host, room_id, token, message, message_format, notify=0):
-    print([message])
+def send(host, room_id, token, message, message_format, notify=True):
     print(curl(
         URL.format(host=host, room_id=room_id, token=token),
         d=json.dumps({
